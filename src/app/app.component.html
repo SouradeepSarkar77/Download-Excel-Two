@@ -1,0 +1,9 @@
+<ul *ngFor="let item of data">
+  <li><strong>Name : </strong>{{item.name}}</li>
+  <li><strong>Age : </strong>{{item.age}}</li>
+  <li><strong>Average : </strong>{{item.average}}</li>
+  <li><strong>Approved : </strong>{{item.approved}}</li>
+  <li><strong>Description : </strong>{{item.description}}</li>
+</ul>
+
+<button type="button" (click)="fileDownload()">Download</button>
